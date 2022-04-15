@@ -17,7 +17,7 @@ class NavigationMenu extends StatefulWidget{
 
 
 class _NavigationMenuState extends State<NavigationMenu>{
-  //final _messengerKey = GlobalKey<ScaffoldMessengerState>();
+ // final _messengerKey = GlobalKey<ScaffoldMessengerState>();
 
   @override
   Widget build(BuildContext context) {
@@ -70,9 +70,9 @@ class _NavigationMenuState extends State<NavigationMenu>{
                 leading: const Icon(Icons.input),
                 title: const Text("Авторизация"),
                 onTap:(){
-                  //_messengerKey.currentState!.showSnackBar(
-                  //  const SnackBar(content: Text("Переход в экран авторизации"),)
-                  //  );
+                 // _messengerKey.currentState!.showSnackBar(
+                 //   const SnackBar(content: Text("Переход в экран авторизации"),)
+                 //   );
                   Navigator.pushNamed(context, '/');
                 },
               ),

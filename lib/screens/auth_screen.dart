@@ -6,8 +6,8 @@ import '../classes/navigator_menu.dart';
 
 class AuthScreen extends StatelessWidget {
   AuthScreen({Key? key}) : super(key: key);
-  final _accessLogin = "1";
-  final _accessPassword = "1";
+  final _accessLogin = "+79818346012";
+  final _accessPassword = "dtvvkgvka!";
   final _messengerKey = GlobalKey<ScaffoldMessengerState>();
 
   // This widget is the root of your application.
